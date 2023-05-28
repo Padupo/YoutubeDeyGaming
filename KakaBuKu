@@ -5649,7 +5649,7 @@ spawn(function()
 			end
 end)
 
-Main:Seperator(" Ilha Da Miragem 🏝️ | TSUO SCRIPTS |")
+Main:Seperator(" Ilha Da Miragem 🏝️ | Dey Gaming |")
 
 Main:Toggle("Auto Miragem 🏝️",false,function(value)
  if game:GetService("Workspace").Map:FindFirstChild("MysticIsland") then
@@ -6044,7 +6044,7 @@ end)
  
  if World3 then
 
-Weapon:Seperator(" Missões📜 | TSUO SCRIPTS |")
+Weapon:Seperator(" Missões📜 | Dey Gaming |")
 
 local Total_Elite_Hunter = Weapon:Label("Elite Hunter")
 
