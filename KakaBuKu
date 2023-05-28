@@ -328,7 +328,7 @@ mainopens.Parent = mainopen
  Hub.Position = UDim2.new(0, 110, 0, 0)
  Hub.Size = UDim2.new(0, 81, 0, 27)
  Hub.Font = Enum.Font.Code
- Hub.Text = "| O MELHOR DO BRASIL|"
+ Hub.Text = "|Dey Gaming|"
  Hub.TextColor3 = Color3.fromRGB(0,255,0)
  Hub.TextSize = 16.000
  Hub.TextXAlignment = Enum.TextXAlignment.Left
@@ -3799,7 +3799,7 @@ end)
 
  
 --------------------------------------------------------------------
-local Library = Update:Window("TSUO HUB ","")
+local Library = Update:Window("Youtube ","")
 ------------------------------------------
 
 spawn(function()
@@ -4230,13 +4230,13 @@ local Misc = Library:Tab("outros❓","rbxassetid://11447063791")
 local Op = Library:Tab("Status🔥", "rbxassetid://7040410130")
 --------------------------------------------------------------------
 
-Setting:Label("⚡ENTRE NO MEU DISCORD TSUO COMUNNITY!!⚡")
+Setting:Label("⚡!Products belong to Youtube Dey Gaming!⚡")
 
 Setting:Line()
 
-Setting:Button("🔥COPIAR LINK DO DISCORD🔥",function()
+Setting:Button("https://youtube.com/@Deygaming256",function()
  
- setclipboard("https://discord.gg/fH4yPUBZMP")
+ setclipboard("https://youtube.com/@Deygaming256")
  end)
 
 Setting:Seperator(" Configurações ⚙️ ")
