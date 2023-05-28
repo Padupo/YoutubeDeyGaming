@@ -4735,7 +4735,7 @@ Main:Button("Parar Teleporte",function()
   _G.Clip = false
   end)
 
-Main:Seperator("  @TSUOSCRIPTS NO YOUTUBE 🇧🇷")
+Main:Seperator("  @Yotube Dey Gaming")
 
 Main:Dropdown("Selecionar Modo de  Farm", {
  "Level Farm","Fast Mode","No Quest","Near Farm Mode"
