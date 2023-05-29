@@ -4632,7 +4632,7 @@ Setting:Toggle("Skill Z",true,function(a)
 		_G.SkillV = a
 	end)
 
-Main:Seperator(" Server ")
+Main:Seperator(" Dey Gaming ")
 
 Time = Main:Label("Executer Time")
 
