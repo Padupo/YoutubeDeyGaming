@@ -2091,7 +2091,7 @@ end)
 --------------------------------------------------------------------
 local RenUi = library:AddWindow("Dey Gaming",Enum.KeyCode.RightControl)
 --------------------------------------------------------------------
-local Main = RenUi:AddTab("Menu","6026568198")
+local Main = RenUi:AddTab("Menu Farm","6026568198")
 local Combat = RenUi:AddTab("Player","7251993295")
 local Stats = RenUi:AddTab("Stats","7040410130")
 local Teleport = RenUi:AddTab("Teleport Island","6035190846")
@@ -2100,7 +2100,7 @@ local DevilFruit = RenUi:AddTab("Devil Fruit","7044233235")
 local Shop = RenUi:AddTab("Shop","6031265976")
 local Misc = RenUi:AddTab("Miscellaneous","6034509993")
 --------------------------------------------------------------------
-Main:AddSeperator("Youtube Dey Gaming")
+Main:AddSeperator("à¸¢à¸´à¸™à¸”à¸µà¸•à¹‰à¸­à¸™à¸£à¸±à¸šà¸ªà¸¹à¹ˆTUPERHUBà¸„à¸™à¸—à¸³à¸ªà¸„à¸£à¸´à¸›à¸•à¹Œà¹€à¸›à¹‡à¸™à¸„à¸™à¹„à¸—à¸¢à¸™à¸°à¸„à¸£à¸±à¸š")
 Main:AddSeperator("Settings Farm")
 
 Time = Main:AddLabel("Server Time")
