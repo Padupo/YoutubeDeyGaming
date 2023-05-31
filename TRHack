@@ -1,5 +1,5 @@
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
-_G.Color = Color3.fromRGB(255,0,0)
+_G.Color = Color3.fromRGB(0,255,0)
 if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
 
 repeat wait() until game:GetService("Players")
@@ -337,7 +337,7 @@ end
 TweenService:Create(
 PageButton,
 TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-{TextColor3 = Color3.fromRGB(255,0,0)}
+{TextColor3 = Color3.fromRGB(0,255,0)}
 ):Play()
 end
 end)
@@ -346,7 +346,7 @@ if ff == false then
 TweenService:Create(
 PageButton,
 TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-{TextColor3 = Color3.fromRGB(255,0,0)}
+{TextColor3 = Color3.fromRGB(0,255,0))}
 ):Play()
 for i,v in next, TabFolder:GetChildren() do
 if v.Name == "MainTab" then
@@ -391,7 +391,7 @@ Button.MouseEnter:Connect(function()
 TweenService:Create(
 Button,
 TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-{TextColor3 = Color3.fromRGB(255,0,0)}
+{TextColor3 = Color3.fromRGB(0,255,0)}
 ):Play()
 end)
 
@@ -463,7 +463,7 @@ local ToggleImage2 = Instance.new("Frame")
 ToggleImage2.Name = "ToggleImage2"
 ToggleImage2.Parent = ToggleImage
 ToggleImage2.AnchorPoint = Vector2.new(0.5, 0.5)
-ToggleImage2.BackgroundColor3 = Color3.fromRGB(255,0,0)
+ToggleImage2.BackgroundColor3 = Color3.fromRGB(0,255,0)
 ToggleImage2.Position = UDim2.new(0, 10, 0, 10)
 ToggleImage2.Visible = false
 
@@ -476,7 +476,7 @@ Toggle.MouseEnter:Connect(function()
 TweenService:Create(
 ToggleLabel,
 TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-{TextColor3 = Color3.fromRGB(255,0,0)}
+{TextColor3 = Color3.fromRGB(0,255,0)}
 ):Play()
 end)
 
@@ -656,7 +656,7 @@ DropButton2.MouseEnter:Connect(function()
 TweenService:Create(
 DropButton2,
 TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-{TextColor3 = Color3.fromRGB(255,0,0)}
+{TextColor3 = Color3.fromRGB(0,255,0)}
 ):Play()
 end)
 DropButton2.MouseLeave:Connect(function()
@@ -832,7 +832,7 @@ Bar1.Size = UDim2.new(0, 435, 0, 5)
 
 Bar.Name = "Bar"
 Bar.Parent = Bar1
-Bar.BackgroundColor3 = Color3.fromRGB(255,0,0)
+Bar.BackgroundColor3 = Color3.fromRGB(0,255,0)
 Bar.Size = UDim2.new(set/max, 0, 0, 5)
 
 UICorner_2.CornerRadius = UDim.new(0, 100)
@@ -912,7 +912,7 @@ Seperator.Size = UDim2.new(0, 455, 0, 20)
 
 Sep1.Name = "Sep1"
 Sep1.Parent = Seperator
-Sep1.BackgroundColor3 = Color3.fromRGB(255,0,0)
+Sep1.BackgroundColor3 = Color3.fromRGB(0,255,0)
 Sep1.BorderSizePixel = 0
 Sep1.Position = UDim2.new(0, 0, 0, 10)
 Sep1.Size = UDim2.new(0, 150, 0, 1)
@@ -948,7 +948,7 @@ Line.Size = UDim2.new(0, 455, 0, 20)
 
 Linee.Name = "Linee"
 Linee.Parent = Line
-Linee.BackgroundColor3 = Color3.fromRGB(255,0,0)
+Linee.BackgroundColor3 = Color3.fromRGB(0,255,0)
 Linee.BorderSizePixel = 0
 Linee.Position = UDim2.new(0, 0, 0, 10)
 Linee.Size = UDim2.new(0, 455, 0, 1)
@@ -2081,7 +2081,7 @@ Toggle.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Toggle.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 Toggle.Size = UDim2.new(0, 50, 0, 50)
 Toggle.Font = Enum.Font.Code
-Toggle.Text = "T"
+Toggle.Text = "D"
 Toggle.TextColor3 = Color3.fromRGB(255, 0, 0)
 Toggle.TextScaled = true
 Toggle.MouseButton1Down:connect(function()
@@ -2089,9 +2089,9 @@ game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
 game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
 end)
 --------------------------------------------------------------------
-local RenUi = library:AddWindow("TUPER HUB",Enum.KeyCode.RightControl)
+local RenUi = library:AddWindow("Dey Gaming",Enum.KeyCode.RightControl)
 --------------------------------------------------------------------
-local Main = RenUi:AddTab("Menu Farm","6026568198")
+local Main = RenUi:AddTab("Menu","6026568198")
 local Combat = RenUi:AddTab("Player","7251993295")
 local Stats = RenUi:AddTab("Stats","7040410130")
 local Teleport = RenUi:AddTab("Teleport Island","6035190846")
@@ -2100,7 +2100,7 @@ local DevilFruit = RenUi:AddTab("Devil Fruit","7044233235")
 local Shop = RenUi:AddTab("Shop","6031265976")
 local Misc = RenUi:AddTab("Miscellaneous","6034509993")
 --------------------------------------------------------------------
-Main:AddSeperator("à¸¢à¸´à¸™à¸”à¸µà¸•à¹‰à¸­à¸™à¸£à¸±à¸šà¸ªà¸¹à¹ˆTUPERHUBà¸„à¸™à¸—à¸³à¸ªà¸„à¸£à¸´à¸›à¸•à¹Œà¹€à¸›à¹‡à¸™à¸„à¸™à¹„à¸—à¸¢à¸™à¸°à¸„à¸£à¸±à¸š")
+Main:AddSeperator("Youtube Dey Gaming")
 Main:AddSeperator("Settings Farm")
 
 Time = Main:AddLabel("Server Time")
