@@ -1,7 +1,7 @@
 spawn(function()
     while wait(0.00001) do
         p22(v9)
-        p22(v98
+        p22(v98)
         p22(v100)
     end
 end)
@@ -12,9 +12,9 @@ cac.Parent = game.CoreGui
 local lon = Instance.new('TextLabel')
 lon.Parent = cac
 lon.BackgroundTransparency = 1
-lon.TextSize = 19
+lon.TextSize = 25
 lon.Text = 'Youtube Dey Gaming'
-lon.TextColor3 = Color3.fromRGB(0,255,255)
+lon.TextColor3 = Color3.fromRGB(0,255,0)
 lon.Size = UDim2.new(1,0,1,5,0)
 repeat wait(1) until game:IsLoaded()
 
