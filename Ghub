@@ -2100,8 +2100,8 @@ local DevilFruit = RenUi:AddTab("Devil Fruit","7044233235")
 local Shop = RenUi:AddTab("Shop","6031265976")
 local Misc = RenUi:AddTab("Miscellaneous","6034509993")
 --------------------------------------------------------------------
-Main:AddSeperator("à¸¢à¸´à¸™à¸”à¸µà¸•à¹‰à¸­à¸™à¸£à¸±à¸šà¸ªà¸¹à¹ˆTUPERHUBà¸„à¸™à¸—à¸³à¸ªà¸„à¸£à¸´à¸›à¸•à¹Œà¹€à¸›à¹‡à¸™à¸„à¸™à¹„à¸—à¸¢à¸™à¸°à¸„à¸£à¸±à¸š")
-Main:AddSeperator("Dey Gaming")
+Main:AddSeperator("Copyright belongs to Youtube Dey Gaming")
+Main:AddSeperator("https://youtube.com/@Deygaming256")
 
 Time = Main:AddLabel("Server Time")
 
