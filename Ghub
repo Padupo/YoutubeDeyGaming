@@ -2081,7 +2081,7 @@ Toggle.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Toggle.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 Toggle.Size = UDim2.new(0, 50, 0, 50)
 Toggle.Font = Enum.Font.Code
-Toggle.Text = "T"
+Toggle.Text = "A"
 Toggle.TextColor3 = Color3.fromRGB(255, 0, 0)
 Toggle.TextScaled = true
 Toggle.MouseButton1Down:connect(function()
@@ -2089,7 +2089,7 @@ game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
 game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
 end)
 --------------------------------------------------------------------
-local RenUi = library:AddWindow("TUPER HUB",Enum.KeyCode.RightControl)
+local RenUi = library:AddWindow("AGEMS",Enum.KeyCode.RightControl)
 --------------------------------------------------------------------
 local Main = RenUi:AddTab("Menu Farm","6026568198")
 local Combat = RenUi:AddTab("Player","7251993295")
@@ -2101,7 +2101,7 @@ local Shop = RenUi:AddTab("Shop","6031265976")
 local Misc = RenUi:AddTab("Miscellaneous","6034509993")
 --------------------------------------------------------------------
 Main:AddSeperator("à¸¢à¸´à¸™à¸”à¸µà¸•à¹‰à¸­à¸™à¸£à¸±à¸šà¸ªà¸¹à¹ˆTUPERHUBà¸„à¸™à¸—à¸³à¸ªà¸„à¸£à¸´à¸›à¸•à¹Œà¹€à¸›à¹‡à¸™à¸„à¸™à¹„à¸—à¸¢à¸™à¸°à¸„à¸£à¸±à¸š")
-Main:AddSeperator("Settings Farm")
+Main:AddSeperator("Dey Gaming")
 
 Time = Main:AddLabel("Server Time")
 
