@@ -28,7 +28,7 @@ mainopens.Parent = mainopen
  loki.BackgroundTransparency = 1.000
  loki.Position = UDim2.new(-0.0529999994, 0, -0.244000003, 0)
  loki.Size = UDim2.new(0, 69, 0, 62)
- loki.Image = "rbxassetid://12426728665"
+ loki.Image = "rbxassetid://13667317017"
  
  posto.Name = "posto"
  posto.Parent = mainopen
@@ -328,7 +328,7 @@ mainopens.Parent = mainopen
  Hub.Position = UDim2.new(0, 110, 0, 0)
  Hub.Size = UDim2.new(0, 81, 0, 27)
  Hub.Font = Enum.Font.Code
- Hub.Text = "| BEST BLOX FRUIT SCRIPT |"
+ Hub.Text = "| https://youtube.com/@Deygaming256 |"
  Hub.TextColor3 = Color3.fromRGB(153,0,0)
  Hub.TextSize = 16.000
  Hub.TextXAlignment = Enum.TextXAlignment.Left
@@ -4216,7 +4216,7 @@ spawn(function()
 end)
 
 --------------------------
-local Main = Library:Tab("Main","rbxassetid://11446825283")
+local Main = Library:Tab("Menu Farm","rbxassetid://11446825283")
 local Setting = Library:Tab("Settings","rbxassetid://11446835336")
 local Weapon = Library:Tab("Weapons","rbxassetid://11446859498")
 local Race = Library:Tab("Race V4","rbxassetid://11446900930")
@@ -4230,13 +4230,13 @@ local Misc = Library:Tab("Misc","rbxassetid://11447063791")
 local Op = Library:Tab("Status", "rbxassetid://7040410130")
 --------------------------------------------------------------------
 
-Setting:Label("Join My Discord For More Info!")
+Setting:Label("Join My Youtube For More Info!")
 
 Setting:Line()
 
-Setting:Button("Copy Discord Link",function()
+Setting:Button("Link Dey Gaming",function()
  
- setclipboard("https://discord.gg/NnjjAUW6KX")
+ setclipboard("https://youtube.com/@Deygaming256")
  end)
 
 Setting:Seperator(" Setting ")
